@@ -595,3 +595,12 @@ const express = require('express');
   });
 
   module.exports = router;
+
+
+
+###  — PRISMA ORM  — Inicializar o Prisma
+# — Inicializar o Prisma # ▎ Isso atualiza o .env e cria prisma/schema.prisma
+npx prisma init
+
+ # — Configurar o schema.prisma
+
